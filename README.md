@@ -9,10 +9,37 @@
 Include a data dictionary to explain the meaning of each variable or field in the dataset. You can also link to an external data dictionary.
 
 | Column Name | Description |
-|-------------|-------------|
-| Column1     | Description1 |
-| Column2     | Description2 |
-| ...         | ...         |
+|-------------|-------------|                                                
+| car_name             | Name of the car (make + model, e.g., Maruti Swift, Hyundai i10).         |
+| yr_mfr               | Year of manufacture of the car.                                          |
+| fuel_type            | Type of fuel used (Petrol, Diesel, CNG, Electric, etc.).                 |
+| kms_run              | Kilometers driven by the car (odometer reading).                         |
+| sale_price           | Final listed selling price of the car (target column for regression).    |
+| city                 | City where the car is listed.                                            |
+| times_viewed         | Number of times the listing was viewed online.                           |
+| body_type            | Body type of the car (Hatchback, Sedan, SUV, etc.).                      |
+| transmission         | Gear type (Manual / Automatic).                                          |
+| variant              | Variant of the car (e.g., LXI, VDI, Sports, etc.).                       |
+| assured_buy          | Whether the car comes with an assured buy option (True/False).           |
+| registered_city      | City where the car is registered.                                        |
+| registered_state     | State where the car is registered.                                       |
+| is_hot               | Indicates if the car is a “hot” listing (highly demanded).               |
+| rto                  | Regional Transport Office code of the registration.                      |
+| source               | Source platform of the listing.                                          |
+| make                 | Manufacturer of the car (e.g., Maruti, Hyundai, Honda).                  |
+| model                | Model name of the car (e.g., Swift, i10, City).                          |
+| car_availability     | Availability status of the car (Available/Sold).                         |
+| total_owners         | Number of previous owners (1, 2, 3, etc.).                               |
+| broker_quote         | Price quoted by broker/agent.                                            |
+| original_price       | Original on-road price when the car was new.                             |
+| car_rating           | Rating of the car’s condition (Excellent, Good, Fair, etc.).             |
+| ad_created_on        | Date and time when the ad was created.                                   |
+| fitness_certificate  | Whether the car has a valid fitness certificate (True/False).            |
+| emi_starts_from      | Monthly EMI amount if financed.                                          |
+| booking_down_pymnt   | Minimum down payment required for booking.                               |
+| reserved             | Whether the car is already reserved (True/False).                        |
+| warranty_avail       | Availability of warranty (True/False).                                   |
+
 
 ## Executive Summary
 
